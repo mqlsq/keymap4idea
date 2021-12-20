@@ -1,0 +1,29 @@
+<idea-plugin>
+  <id>com.mqlsq.plugin.macos.keymap</id>
+  <name>Mqlsq Keymap</name>
+  <version>1.0</version>
+  <vendor email="liu.shaoqiu@163.com" url="https://github.com/mqlsq">mqlsq</vendor>
+
+  <description>
+    这个插件是关于idea快捷键的的，主要用于保存个人快捷键，并且可以在idea中使用
+  </description>
+
+  <change-notes>
+  </change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
